@@ -207,7 +207,7 @@
                 var _list = $this.getEnum();
                 $this.setState({ data: _list, item: _list.length, round: 0, record: [] });
             });
-            setTimeout(this.updateAlipay, 30000);
+            setTimeout(this.updateAlipay, 0);
         },
         updateAlipay: function(){
             this.setState({ mycls: '' });
@@ -280,7 +280,7 @@
                         ),
                         React.createElement("div", { className: "panel-body" },
                             React.createElement("img", { src: "./pay.jpg", alt: "alipay", className: "img-responsive" }),
-                            React.createElement("div", null, "打赏赞助，感谢支持~", React.createElement("span", { className: "pull-right" }, React.createElement("a", { href: "javascript:;", className: "hidden",onClick: this.handleClick }, "关闭")))
+                            React.createElement("div", null, "打赏赞助，感谢支持~", React.createElement("span", { className: "pull-right" }))
                         )
                     )
                     )
