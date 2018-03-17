@@ -26,7 +26,7 @@
                             React.createElement("a", {
                                 className: "navbar-brand",
                                 href: "#"
-                            }, "FS开金库")
+                            }, "FS开金库 (Q群:714638701)")
                         ),
                         React.createElement("div", null,
                             React.createElement("ul", {
