@@ -400,23 +400,7 @@
                                     className: "pull-right"
                                 }))
                             )
-                        ),
-                        // React.createElement("div", {
-                        //         className: 'panel panel-primary ' + this.state.mycls
-                        //     },
-                        //     React.createElement("div", {
-                        //             className: "panel-heading"
-                        //         },
-                        //         "赞助名单"
-                        //     ),
-                        //     React.createElement("div", {
-                        //             className: "panel-body"
-                        //         },
-                        //         React.createElement('ul', {
-                        //             className: 'sponsor'
-                        //         }, React.createElement("li", null, "*奕刚"))
-                        //     )
-                        // )
+                        )
                     )
                 )
             )
