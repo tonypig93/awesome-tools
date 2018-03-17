@@ -8,3 +8,18 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+
+ul.sponsor li {
+    list-style: none;
+    float: left;
+}
+
+#cnzz_stat_icon_1273144522 {
+    position: fixed;
+    background: #fff;
+    border-top: 1px solid #d9d9d9;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
